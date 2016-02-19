@@ -1,0 +1,40 @@
+{
+  "name": "pdxcat-amanda",
+  "version": "1.0.4",
+  "author": "Computer Action Team",
+  "summary": "Amanda module for Puppet",
+  "license": "Apache 2.0",
+  "source": "http://repo.han.nl",
+  "project_page": https://github/D43m0n/puppet-module-amanda,
+  "issues_url": null,
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": "3.x"
+    }
+  ],
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_range": ">= 2.2.1"
+    },
+    {
+      "name": "puppetlabs-concat",
+      "version_range": ">= 1.1.1"
+    },
+    {
+      "name": "puppetlabs-xinetd",
+      "version_range": ">= 1.2.0"
+    }
+  ]
+}
+
