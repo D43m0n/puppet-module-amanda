@@ -5,7 +5,7 @@
   "summary": "Amanda module for Puppet",
   "license": "Apache 2.0",
   "source": "http://repo.han.nl",
-  "project_page": https://github/D43m0n/puppet-module-amanda,
+  "project_page": "https://github/D43m0n/puppet-module-amanda",
   "issues_url": null,
   "operatingsystem_support": [
     {
